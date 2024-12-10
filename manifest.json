@@ -1,0 +1,11 @@
+{
+    "id": "progress-slider",
+    "name": "Progress Slider",
+    "version": "1.0.0",
+    "minAppVersion": "0.12.0",
+    "description": "Добавляет слайдер с дополнительными функциями в заметки Obsidian.",
+    "author": "Vyacheslav",
+    "authorUrl": "https://github.com/sla8ya",
+    "isDesktopOnly": false
+  }
+  

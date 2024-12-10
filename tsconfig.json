@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                // Указываем поддержку ES6
+      "module": "ESNext",             // Используем современные модули
+      "lib": ["ES2015", "DOM"],       // Добавляем ES2015 для Promise и DOM API
+      "strict": true,                 // Включаем строгий режим
+      "esModuleInterop": true,        // Упрощает работу с импортами CommonJS
+      "skipLibCheck": true,           // Пропускаем проверку типов в файлах библиотек
+      "outDir": "dist",               // Каталог для компилированных файлов
+      "allowJs": false,               // Только TypeScript файлы
+      "sourceMap": true               // Генерация карт для отладки
+    },
+    "include": ["main.ts"],           // Включаем только main.ts
+    "exclude": ["node_modules"]       // Исключаем node_modules
+  }
+  

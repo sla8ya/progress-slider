@@ -20,7 +20,7 @@
 
 1. В вашей Markdown-заметке создайте блок с синтаксисом `text-progress-slider`:
 
-   ```markdown
+
    ```text-progress-slider
    label: Volume
    min: 0
@@ -29,7 +29,7 @@
    showValue: true
    unit: %
    ```
-   ```
+ 
 
 2. Сохраните заметку. Плагин автоматически преобразует этот блок в интерактивный слайдер.
 
@@ -54,7 +54,7 @@
 
 ### Пример 1: Процент выполнения
 
-```markdown
+
 ```text-progress-slider
 label: Completion
 min: 0
@@ -63,13 +63,13 @@ current: 75
 showValue: true
 unit: %
 ```
-```
+
 
 **Результат**: Слайдер с меткой "Completion", показывающий прогресс в процентах.
 
 ### Пример 2: Регулятор громкости
 
-```markdown
+
 ```text-progress-slider
 label: Volume
 min: 0
@@ -79,7 +79,7 @@ showValue: true
 unit: /10
 ```
 
-```
+
 
 **Результат**: Слайдер для настройки громкости с меткой "Volume".
 
